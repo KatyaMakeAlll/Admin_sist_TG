@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-feedback-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: API_TOKEN
+        value: 8311775800:AAES22qvv-ixTK4B232jxWAaVAaSN-coGE0
+      - key: ADMIN_ID
+        value: "811357259"
+
